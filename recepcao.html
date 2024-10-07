@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem ao Lado do Texto</title>
+    <style>
+        body {
+            margin: 0; /* Remove margens padrão */
+            height: 100vh; /* Altura total da tela */
+            position: relative; /* Para a imagem ocupar toda a tela */
+        }
+        .background {
+            position: absolute; /* Para a imagem ocupar toda a tela */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('chalé.jpg'); /* Substitua pelo caminho da sua imagem */
+            background-size: cover; /* Faz a imagem cobrir todo o fundo */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Impede que a imagem se repita */
+            opacity: 0.6; /* Define a opacidade (0 = transparente, 1 = opaco) */
+            z-index: -1; /* Coloca a imagem de fundo atrás do conteúdo */
+        }
+        header {
+            background-color: black; /* Cor de fundo do cabeçalho */
+            color: white; /* Cor do texto no cabeçalho */
+            padding: 20px 0; /* Espaçamento interno do cabeçalho */
+            text-align: center; /* Centraliza o texto do cabeçalho */
+        }
+        h1 {
+            margin: 0; /* Remove margens do título principal */
+        }
+        h2 {
+            color: black; /* Cor do subtítulo */
+            margin: 10px 0; /* Margens acima e abaixo do subtítulo */
+            text-align: center; /* Centraliza o texto do subtítulo */
+        }
+        .container {
+            display: flex; /* Usando flexbox para alinhar horizontalmente */
+            align-items: flex-start; /* Alinha verticalmente ao topo */
+            gap: 20px; /* Espaçamento entre a imagem e o texto */
+            padding: 20px; /* Espaçamento ao redor do conteúdo */
+            position: relative; /* Para que o texto fique acima da sobreposição */
+        }
+        .product-image {
+            max-width: 470px; /* Defina a largura máxima da imagem */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        .info-box {
+            background-color: white; /* Cor de fundo do quadro */
+            border-radius: 8px; /* Cantos arredondados */
+            padding: 20px; /* Espaçamento interno do quadro */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar o quadro */
+            max-width: 400px; /* Largura máxima do quadro */
+            margin: 0; /* Remove margens padrão */
+        }
+        p {
+            color: black; /* Cor do texto */
+            text-align: left; /* Alinhamento à esquerda */
+            margin: 0; /* Remove margens padrão */
+            padding: 2px; /* Espaçamento */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background"></div> <!-- Div para a imagem de fundo -->
+
+    <header>
+        <h1>Bem Vindos à Recepção</h1>
+    </header>
+
+    <h2>Informações sobre a recepção e o atendimento personalizado do hotel</h2>
+    
+    <div class="container">
+        <img src="recepcaoo.jpg" alt="Foto da Recepção" class="product-image">
+        <div class="info-box">
+            <p><strong>Orientações sobre o wifi.<strong></p>
+            <p></p> <!-- Espaço adicionado -->
+            <p>Recepção:</p> 
+            <p>Senha: Laguna25.</p>
+            <p></p> <!-- Espaço adicionado -->
+            <p></p> <!-- Espaço adicionado -->
+            <p></p> <!-- Espaço adicionado -->
+            <p></p> <!-- Espaço adicionado -->
+            <p>Chalés:</p>
+            <p> Wifi: Laguna 5g ou LAGUNA 5G</p>
+            <p>Senha: laguna25.</p>
+            <p></p> <!-- Espaço adicionado -->
+            <p></p> <!-- Espaço adicionado -->
+            <p></p> <!-- Espaço adicionado -->
+            <p></p> <!-- Espaço adicionado -->
+            <p>A nossa recepção funciona das 8h da manhã até as 17h30.🤓</p>
+            <p></p> <!-- Espaço adicionado -->
+            <p></p> <!-- Espaço adicionado -->
+            <p>Toda a providência de que precisarem, que possa auxiliar em sua hospedagem, estamos à disposição.</p>
+            <p>(28) 999008400 - Recepção</p>
+            <p></p> <!-- Espaço adicionado -->
+            <p>Depois desse horário, deixaremos dois contatos para qualquer emergência⚠️</p>
+            <p></p> <!-- Espaço adicionado -->
+            <p></p> <!-- Espaço adicionado -->
+            <p>Caso precisem de algo e a recepção esteja fechada, nossos números de emergência são:</p>
+            <p></p> <!-- Espaço adicionado -->
+            <p>(28) 99973-0880 Marina</p>
+            <p>(28) 9999-6007 Alex.</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
