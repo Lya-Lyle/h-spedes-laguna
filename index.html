@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientações Hóspedes</title>
+    <style>
+        /* Estilo para centralizar o conteúdo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+            height: 100vh;
+            position: relative; /* Para que a imagem de fundo ocupe toda a área */
+            overflow: hidden; /* Para evitar barras de rolagem */
+        }
+
+        .background {
+            position: absolute; /* Para a imagem ocupar toda a tela */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('chalé.jpg'); /* Substitua pelo caminho da sua imagem */
+            background-size: cover; /* Faz a imagem cobrir todo o fundo */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Impede que a imagem se repita */
+            opacity: 0.6; /* Define a opacidade da imagem de fundo */
+            z-index: -1; /* Coloca a imagem de fundo atrás do conteúdo */
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative; /* Para que o texto fique acima da imagem de fundo */
+            z-index: 1; /* Coloca o cabeçalho acima da imagem de fundo */
+            padding: 20px 0; /* Adiciona espaçamento interno */
+            background-color: 000; /* Cor de fundo cinza mais claro */
+            width: 100%; /* O cabeçalho ocupa toda a largura */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: black; /* Cor do texto em branco para contraste com o fundo cinza claro */
+            margin: 0; /* Remove margens do h1 */
+        }
+
+        p.description {
+            font-size: 1.2em;
+            color: #f0f0f0; /* Cor do texto em branco claro para o subtítulo */
+            margin: 0; /* Remove margens da descrição */
+            padding-bottom: 10px;
+        }
+
+        /* Estilo para os botões do sumário */
+        .buttons {
+            width: 100%; /* Faz os botões ocuparem a largura completa */
+            max-width: 600px; /* Define uma largura máxima */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.1em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            width: 100%; /* Os botões ocupam a largura total do contêiner */
+            margin: 10px 0;
+        }
+
+        .button:hover {
+            background-color: blue;
+        }
+
+        @media (max-width: 768px) {
+            .buttons {
+                width: 90%; /* Ajuste para dispositivos móveis */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background"></div> <!-- Div para a imagem de fundo -->
+
+    <!-- Cabeçalho com o título e descrição -->
+    <header>
+        <h1>Orientações Hóspedes</h1>
+        <p class="description">Bem-vindos aos Chalés Laguna! Aqui estão todas as informações importantes para tornar sua estadia mais agradável.</p>
+    </header>
+
+    <!-- Sumário com os botões um abaixo do outro -->
+    <section class="buttons">
+        <a href="recepcao.html" class="button">Recepção</a>
+        <a href="cafe_da_manha.html" class="button">Café Da Manhã</a>
+        <a href="disponivel_no_chale.html" class="button">Disponível No Chalé</a>
+        <a href="lareira.html" class="button">Lareira</a>
+        <a href="frigobar.html" class="button">Frigobar</a>
+        <a href="caixas_de_som.html" class="button">Caixas de Som</a>
+        <a href="limpeza.html" class="button">Limpeza</a>
+        <a href="cafeteira.html" class="button">Cafeteira</a>
+        <a href="banheira.html" class="button">Banheira</a>
+        <a href="cortina.html" class="button">Cortina</a>
+        <a href="jardim.html" class="button">Jardim</a>
+        <a href="maquiagem.html" class="button">Maquiagem</a>
+        <a href="cardapio.html" class="button">Cardápio</a>
+        <a href="massagem_terapeutica.html" class="button">Massagem Terapêutica</a>
+        <a href="piquenique.html" class="button">Piquenique</a>
+        <a href="decoracao.html" class="button">Decoração</a>
+        <a href="laguna_adventure.html" class="button">Laguna Adventure</a>
+        <a href="turismo.html" class="button">Turismo</a>
+        <a href="carro_eletrico.html" class="button">Carro Elétrico</a>
+    </section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientações Hóspedes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+            min-height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('chalé.jpg'); /* Substitua pelo caminho correto */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.6;
+            z-index: -1;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin: 0;
+        }
+
+        p.description {
+            font-size: 1.2em;
+            color: #555;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        .buttons {
+           
+
